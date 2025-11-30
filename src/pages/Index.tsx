@@ -400,6 +400,18 @@ const Index = () => {
                       <span>+7 (937) 491-59-71</span>
                     </div>
                   </div>
+                  
+                  <div className="mt-8 flex flex-col items-center gap-4">
+                    <p className="text-sm text-foreground/70 font-medium">Наведите камеру на QR-код</p>
+                    <div className="bg-white p-4 rounded-lg shadow-lg">
+                      <img 
+                        src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://preview--echo-dreams-website.poehali.dev/" 
+                        alt="QR-код сайта Эхо Мечты"
+                        className="w-48 h-48"
+                      />
+                    </div>
+                    <p className="text-xs text-foreground/50">Быстрый доступ к сайту</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
