@@ -411,6 +411,20 @@ const Index = () => {
                       />
                     </div>
                     <p className="text-xs text-foreground/50">Быстрый доступ к сайту</p>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="border-primary/30 text-primary hover:bg-primary/10"
+                      onClick={() => {
+                        const link = document.createElement('a');
+                        link.href = 'https://api.qrserver.com/v1/create-qr-code/?size=1000x1000&data=https://preview--echo-dreams-website.poehali.dev/';
+                        link.download = 'echo-dreams-qr-code.png';
+                        link.click();
+                      }}
+                    >
+                      <Icon name="Download" className="w-4 h-4 mr-2" />
+                      Скачать QR-код
+                    </Button>
                   </div>
                 </div>
               </CardContent>
