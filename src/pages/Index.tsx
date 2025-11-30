@@ -20,11 +20,10 @@ const Index = () => {
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img 
-              src="https://cdn.poehali.dev/files/d71baa46-e307-4114-9692-d892137b440d.jpg" 
+              src="https://cdn.poehali.dev/files/d7d8403e-1c89-4fe9-9b0f-45eda2413655.jpg" 
               alt="Эхо Мечты" 
-              className="h-12 w-12 object-contain"
+              className="h-16 w-auto object-contain"
             />
-            <span className="text-2xl font-bold text-primary">Эхо Мечты</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
@@ -67,9 +66,9 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <div className="mb-8">
               <img 
-                src="https://cdn.poehali.dev/files/d71baa46-e307-4114-9692-d892137b440d.jpg" 
+                src="https://cdn.poehali.dev/files/d7d8403e-1c89-4fe9-9b0f-45eda2413655.jpg" 
                 alt="Эхо Мечты" 
-                className="h-32 w-32 object-contain mx-auto mb-6"
+                className="h-40 w-auto object-contain mx-auto mb-6"
               />
             </div>
             <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
@@ -413,11 +412,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3">
               <img 
-                src="https://cdn.poehali.dev/files/d71baa46-e307-4114-9692-d892137b440d.jpg" 
+                src="https://cdn.poehali.dev/files/d7d8403e-1c89-4fe9-9b0f-45eda2413655.jpg" 
                 alt="Эхо Мечты" 
-                className="h-10 w-10 object-contain"
+                className="h-12 w-auto object-contain"
               />
-              <span className="text-xl font-bold text-primary">Эхо Мечты</span>
             </div>
             
             <p className="text-foreground/60 text-sm">
